@@ -8,7 +8,7 @@ html{
 }
 body .header h1{
 	color: rgb(89,50,60);
-	font-size: 150px;
+	font-size: 200px;
 	margin-top: 65px;
 	margin-bottom: 5px;
 }
@@ -18,7 +18,7 @@ body .header h2{
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
-#navbar ul{
+ul{
 	list-style-type: none;
 }
 #navbar li{
@@ -40,33 +40,63 @@ a{
 #navbar a{
 	color: rgb(140,105,84);
 }
-#AboutMe {
+#AboutMe #inner-contents {
 	background-color: rgb(191,175,128);
 	border: 5px dashed rgb(157,138,79);
 	border-radius: 20px;
 	padding: 50px;
 	margin: 20px;
 }
-#Projects {
+#Projects #inner-contents {
 	background-color: rgb(191,175,128);
 	border: 5px dashed rgb(157,138,79);
 	border-radius: 20px;
 	padding: 50px;
 	margin: 20px;
 }
-#Resume {
+#Projects li{
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 50px;
+	padding: 10px;
+	color: rgb(157,138,79);
+	font-size: 20px;
+	border: 4px solid rgb(157,138,79);
+	border-radius: 5px;
+	display:inline-block;
+	height: 400px;
+	width: 350px;
+}
+#Resume #inner-contents{
 	background-color: rgb(191,175,128);
 	border: 5px dashed rgb(157,138,79);
 	border-radius: 20px;
 	padding: 50px;
 	margin: 20px;
 }
-#ConnectWithMe {
+#Resume li{
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 30px;
+	padding: 20px;
+	color: rgb(157,138,79);
+	font-size: 20px;
+	border: 4px solid rgb(157,138,79);
+	border-radius: 5px;
+	display:inline-block;
+}
+
+#ConnectWithMe #inner-contents{
 	background-color: rgb(191,175,128);
 	border: 5px dashed rgb(157,138,79);
 	border-radius: 20px;
-	padding: 50px;
+	padding: 30px;
 	margin: 20px;
+}
+#ConnectWithMe h3{
+	text-align: center;
 }
 .footer{
 	text-align: center;
@@ -74,4 +104,13 @@ a{
 .icons{
 	margin-right: 50px;
 	margin-left: 50px;
+}
+.contents h1{
+	text-align: center;
+	color: rgb(157,138,79);
+	background-color: rgb(191,175,128);
+	border-radius:20px;
+	border: 5px dashed rgb(157,138,79);
+	padding: 30px;
+	margin: 20px;
 }
