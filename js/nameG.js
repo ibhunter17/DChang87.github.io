@@ -2,7 +2,7 @@ angular.module('nameApp',[])
   .controller('nameGenController',function(){
     var NameGen = this;
     NameGen.returnName='';
-    NameGen.lines = [
+    NameGen.lines = [ //this will eventually be stored as a txt file
       '!#!#!: The Return of the %^%&',
       '!#!#!: The Revenge of the %^%&',
       '!#!#!: %^%& Awakens',
