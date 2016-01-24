@@ -25,6 +25,10 @@ angular.module('nameApp',[])
       '!#!#!: %^%& of Tomorrow',
       '!#!#!: %^%& Ascending',
       '!#!#!: The %^%& Rises',
+      '!#!#!: The %^%& Rises',
+      '!#!#!: The %^%& Rises',
+      '!#!#!: The %^%& Rises',
+      
       
       ];
     NameGen.generated = [];
